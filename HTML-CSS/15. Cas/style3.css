@@ -1,0 +1,39 @@
+.container {
+    float: left;
+    
+}
+
+.container h1 {
+    font-size: 55px;
+
+}
+
+.container p {
+    font-size: 25px;
+}
+
+.container1 {
+    float: right;
+    width: 330px;
+    height: 350px;
+    background-color: white;
+    margin: 50px 50px;
+    box-shadow: 1px 1px 10px gray;
+    text-align: center;
+}
+
+.container1 input {
+    padding: 15px;
+    border: none;
+    outline: none;  
+    background-color: aliceblue;
+}
+
+.container1 .btn {
+    color:white;
+    background-color: blue;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 80%;
+}

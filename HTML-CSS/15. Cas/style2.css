@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* .parent {
+    width: 100vw;
+    height: 900px;
+    background-color: rgb(214, 253, 240);
+    float: left;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 127, 80, 0.5);
+    float: left;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(223, 255, 80);
+    float: left;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 11, 102);
+    clear: both;
+    float: left;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(118, 55, 32);
+    float: left;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 114, 102);
+    float: left;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(135, 14, 109);
+    float: left;
+}
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 182, 225);
+    float: left;
+} */
+
+.parent {
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(214, 253, 240);
+    
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 127, 80, 0.5);
+    float: right;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(223, 255, 80);
+    float: right;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 11, 102);
+    float: right;
+    
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(118, 55, 32);
+    float: right;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 114, 102);
+    clear: both;
+    float: left;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(135, 14, 109);
+    float: left;
+}
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 182, 225);
+    float: left;
+}
+
+.prvi {
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    float: left;
+}
+
+.drugi {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(156, 90, 255);
+    float: right;
+}
