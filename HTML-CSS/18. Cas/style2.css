@@ -9,14 +9,11 @@ body {
 
 .parent {
     margin: 0 auto;
-    width: 80vw;
+    width: 600px;
     height: 500px;
     background-color: rgb(245, 237, 121);
 
     display: flex;
-    /* flex-wrap: nowrap;  defaultna vrednost */
-    flex-wrap: wrap;
-
     /* Horizontalno poravnanje */
 
     /* justify-content: start; */
@@ -27,34 +24,40 @@ body {
 
     /* Verikalno poravnanje */
 
-    align-items: start;
-    /* align-items: center; */
+    /* align-items: start; */
+    align-items: center;
     /* align-items: end; */
 
 }
 
 .box:nth-of-type(1) {
-    width: 200px;
+    width: 100px;
     height: 100px;
     background-color: #ff0000;
-    /* U slucaju primene order svojstva neophodno je dodeliti vrednost */
-    /* za svaki od elemenata koji pripadaju parent kontejneru sa display: flex */
-    order: 2;
+
+    align-self: start;
 }
 
 .box:nth-of-type(2) {
-    width: 200px;
+    width: 100px;
     height: 100px;
     background-color: #00ff00;
 
-    order: 3;
+    display: flex;
+    align-items: end;
+
+
 }
 
+.box:nth-of-type(2) p:nth-of-type(2) {
+    color: #8b0000;
+    align-self: center;
+}
 
 .box:nth-of-type(3) {
-    width: 200px;
+    width: 100px;
     height: 100px;
     background-color: #0000ff;
 
-    order: 1;
+    align-self: end;
 }
