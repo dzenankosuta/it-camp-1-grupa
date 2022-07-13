@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 40%;
+    height: 400px;
+    background-color: #46466a;
+
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: #a52a2a;
+    /* desinisemo ponasanje nase animacije: */
+    /*        property  duration    timing function                delay */
+    /*         svojstvo trajanje funkcija za izvrsavanje animacije odlaganje*/
+    transition: transform 0.5s cubic-bezier(0.48,-0.48, 1, 1.61)    0.4s;
+    /* transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-delay: 1s; */
+
+}
+
+.parent:hover .child {
+    transform: translateY(250px)
+}
