@@ -115,6 +115,24 @@ img {
     padding: 0.5rem;
 }
 
+@media (min-width: 500px), (max-width: 620px) {
+    main {
+        width: 90%;
+    }
+
+    .main1 {
+        margin: 2rem auto;
+        width: 100%;
+        
+    }
+
+    .main3 {
+        height: 350px;
+        display: flex;
+
+    }
+}
+
 @media (max-width: 500px) {
     .headerdiv {
         width: 100%;
