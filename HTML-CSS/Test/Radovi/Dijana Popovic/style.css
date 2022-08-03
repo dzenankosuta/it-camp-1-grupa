@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    box-shadow: 1px 1px 10px rgb(121, 109, 109);
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    color: #5777ba;
+    font-size: 15px;
+    box-shadow: 2px 2px 9px rgb(220, 211, 211);
+    padding-left: 1000px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: 15%;
+    text-decoration: none;
+    
+}
+
+header .container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .sadrzaj ul {
+    display: flex;
+    list-style-type: none;   
+}
+header .container .sadrzaj ul li a {
+    color: #47536e;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+header .container .logo h1 {
+    font-weight: 500;
+    color: #5777ba;
+}
+header .container .sadrzaj li .btn {
+    background-color: #5777ba;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+}
+.main {
+    margin-top: 130px;
+}
+.main .container {
+    display: flex;
+    gap: 20px;
+}
+.main .container .sadrzaj h1 {
+    color: #47536e;
+}
+.main .container .sadrzaj p {
+    color: #585a61;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.main .container .sadrzaj i {
+    display: block;
+    color: #5777ba;
+}
+.main .container .sadrzaj i span {
+    color: #47536e;
+}
+footer {
+    background-color: rgb(218, 231, 232);
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    clear: both;
+}
+.levi,.desni {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+footer .desni i {
+    background-color: rgb(187, 198, 199);
+    border-radius: 50%;
+    color: #5777ba;
+    padding: 10px;
+}

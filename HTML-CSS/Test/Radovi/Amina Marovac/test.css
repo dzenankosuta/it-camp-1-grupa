@@ -1,0 +1,163 @@
+*  {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header  {
+    width: 100%;
+    height: 4.8rem;
+    box-shadow: 6px 6px 6px whitesmoke;
+}
+
+.parent  {
+    display: flex;
+    align-items: center;
+    top: 20px;
+    flex-direction: row;
+    
+
+}
+
+.parent h1  {
+    color: rgb(35, 35, 167);
+    font-weight: normal;
+    display: flex;
+margin-top: 20px;
+margin-left: 120px;
+}
+
+.glavni  {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 300px;
+}
+
+.glavni ul li a {
+    text-decoration: none;
+
+}
+
+.glavni a {
+    color: #000000;
+    text-decoration: none;
+}
+.parent ul  {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 35px;
+    margin-top: 22px;
+}
+
+.parent button  {
+    width: 140px;
+    height: 40px;
+    background-color: #2929b1;
+    color: aliceblue;
+    border-radius: 20px;
+    text-decoration: none;
+    border: #2929b1;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.prvi  {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 100px;
+background-image: url(https://github.com/dzenankosuta/it-camp/blob/master/details-1.png?raw=true);
+background-repeat: no-repeat;
+background-size: 30% 500px;
+}
+
+.drugi  {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 600px;
+    padding: 12px;
+    line-height: 20px;
+}
+
+.drugi  h3  {
+    color: rgb(35, 35, 167);
+}
+
+
+#icon  {
+    font-size: 23px;
+    font-weight: normal;
+
+}
+.drugi p  {
+    display: flex;
+    gap: 16px;
+}
+
+.tri  {
+    background-color: #3131ff;
+    color: aliceblue;
+}
+
+.peti  {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100px;
+    background-color:#e7e2e2;
+    padding: 15px;
+
+}
+
+.peti p  {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: -25px;
+    
+}
+
+.peti p2  {
+    font-size: 13px;
+}
+
+.dv{
+    color: black;
+}
+
+.sest  {
+    color: #3131ff;
+}
+
+.sesti  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 17px;
+    margin-top: -72px;
+    margin-right: 30px;
+    
+}
+
+#mavi  {
+    font-size: 25px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 204, 204);
+}

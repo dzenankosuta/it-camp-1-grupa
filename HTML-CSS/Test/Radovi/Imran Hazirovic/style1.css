@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+p{
+    color: #585a61;;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+
+}
+
+.navmenu{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 15px black ;
+    
+
+}
+
+.logo{
+    color: #5777ba;
+    
+}
+
+.nav{
+    display: flex;
+}
+
+.nav a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 18px;
+    color: #47536e;
+}
+
+.nav button{
+    margin-left: 20px;
+    background-color: #5777ba;
+    height: 50px;
+    width: 120px;
+    border-radius: 40px;
+    border: none;
+    color: aliceblue;
+
+}
+
+.pocetna{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.sadrzaj{
+    
+    display:flex ;
+    justify-content: space-between;
+    align-items: center ;
+    width: 85%;
+    height: 600px;
+    margin-left: 60px;
+    
+    
+}
+
+
+
+
+.img img{
+    
+    width: 400px;
+    height: 500px;
+    
+
+}
+
+.text{
+    width: 55%;
+    
+    
+}
+
+.pocetna .sadrzaj .text .podnaslov p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.text p{
+    margin-top: 10px;
+}
+
+.text p i{
+    color: #5777ba;
+}
+
+.pocetna{
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+}
+
+.footer1{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .span {
+    color: #254de4;
+
+}
+
+.footer .footer1 .icons .i{
+    margin-left: 10px;
+}
