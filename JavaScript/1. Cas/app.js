@@ -54,3 +54,60 @@ BigInt(945646161616161616185);
 //              Koristi se za anonimne i jedinstvene vrednosti.
 
 Symbol("Kako je bilo vreme?");
+
+// 2. Ne primitivni tipovi podataka (Non-Primitive data types).
+//    Primitivni tipovi podataka se koriste da skladistenje promenljivih (varijabli)
+//    koje imaju jednu vrednost.
+//    Dok za promenljive koje sadrze vise vrednosti (ili kompleksne vrednosti)
+//    koristimo ne primitivne tipove podataka (Non-Primitive data types.)
+
+//    Primeri ne primitivnih tipova podataka:
+
+// 2.1  Array (Nizovi) - Nizovi se koriste za skladistenje vise podataka
+//                       unutar jedne promenljive.
+//                       Nizovu u JavaScript_u imaju mogucnost skladistenja
+//                       elemenata razlicitih tipova podaataka.
+
+// Zapisivanje nizova:
+// Niz stringova
+["Talib", "Muhamed", "Amina", "Ahmed", "Mervan"][
+  // Niz brojeva
+  (15, 17, 18, 19, 18)
+][
+  // Niz koji u sebi sadrzi razlicite tipove podataka
+  ("Talib", 15, false, "Ahmed", 19, true)
+];
+// 2.Nacin zapisivanje nizova (nacin koji nije preporucljiv za koriscenje)
+new Array([false, "Ahmed", 19]);
+
+// 2.2 Objects (Objekti) - Objekti su GLAVNA STVAR U PROGRAMSKOM JEZIKU JAVASCRIPT.
+//                         Objekti sluze za skladistenje nekih podataka, i oni se zapisuju
+//                         po principu ime,vrednost (name,value) par.
+//                         Objekti takodje mogu sadrzati razlicite tipove podataka.
+//   Zapisivanje objekata:
+// {
+//   marka: "BMW",
+//   godinaProizvodnje: 2006,
+//   boja: "crna",
+//   kubikaza: "2000ks"
+// }
+// 2.Nacin zapisivanje objekata (nacin koji nije preporucljiv za koriscenje)
+new Object({ punletnost: false, ime: "Ahmed", starost: 19 });
+
+//  2.3 Set (Setovi) - Setovi su slicni nizovima, sa razlikom kod zapisivanja
+//                     i izmedju ostalih, najbitnija karakteristika kod setova je
+//                     da oni ne mogu imati duplikate.
+//     Zapisivanje setova:
+new Set(["jabuka", "sljiva", "kruska", "jagoda"]);
+
+//  2.4 Maps (Mape) - Predstavljaju ne primitivni tip podatka, koji je vrlo slican objektu.
+//                    Ali zapisivanje se izvrsava na nesto drugaciji nacin.
+//     Zapisivanje mape:
+new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200],
+]);
+
+// Treba imati na umu da svi tipovi podataka koji nisu primitivni tipovi podataka
+// imaju Object tip kada ispitujemo preko funkcije typeof.
