@@ -77,7 +77,7 @@ if (broj1 < 0) {
 // Ako je zadovoljen slucaj x, izvrsice se 66. linija koda,
 // ako nije, prelazimo na sledeci slucaj...
 
-// Kad se do break rezervisane reci switch naredba prestaje da se izvrsava.
+// Kad se dodje do break rezervisane reci switch naredba prestaje da se izvrsava.
 
 // Ako je izostavi break, to znaci da ce se izvrsiti linija koda od sledeceg slucaja
 // (koji zapravo nije zadovoljen) i to nije nesto sto zelimo da se desi.
