@@ -5,7 +5,7 @@ let suma = 0;
 let brojDeljivih = 0;
 
 if (isNaN(n) || n < 1) {
-  console.log("Niste uneli prirodan broj broj.");
+  console.log("Niste uneli prirodan broj.");
 } else {
   for (let i = 1; i <= n; i++) {
     if (i % 5 === 0) {
