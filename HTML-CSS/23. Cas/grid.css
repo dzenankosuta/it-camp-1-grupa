@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.parent {
+    margin: 20px auto;
+    width: 80%;
+    height: 1000px;
+    background-color: cornflowerblue;
+    /* overflow: auto; */
+    display: grid;
+    /* grid-template-columns: 200px 200px 120px; prva vrednost se odnosi na prvu kolonu, druga na drugi...*/
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(3, 150px);
+
+    /* grid-template-rows: 200px 150px; prva vrednost se odnosi na prvi red, druga na drugi */
+    /* grid-auto-rows: 150px; 150px je visina koju ce imati svaki red */
+    grid-auto-rows: minmax(150px, 150px); /* funkcija koja definise defaultnu vrednost za visinu reda (prvi argument unutar funkcije), auto predstavlja eventualno povecanje u slucaju veceg sadrzaja.*/
+
+    /* grid-row-gap: 15px; */
+    /* grid-column-gap: 20px; */
+    grid-gap: 20px;
+
+    grid-template-areas: 
+    "header header side"
+    "header header side"
+    "main side2 side2"
+    "side3 side3 side3"
+    "side4 side4 side4"
+    ;
+}
+
+.box1 {
+    /* width: 150px; */
+    /* height: 150px; */
+    background-color: #4949bf;
+
+    grid-area: header;
+}
+
+.box2 {
+    /* width: 150px; */
+    /* height: 150px; */
+    background-color: #50de9e;
+
+    grid-area: side;
+}
+
+.box3 {
+    /* width: 150px; */
+    /* height: 150px; */
+    background-color: #bb7905;
+
+    grid-area: main;
+}
+
+.box4 {
+    /* width: 150px; */
+    /* height: 150px; */
+    background-color: #577216;
+
+    grid-area: side2;
+}
+
+.box5 {
+    /* width: 150px; */
+    /* height: 150px; */
+    background-color: #198c3f;
+
+    grid-area: side3;
+}
+
+.box6 {
+    /* width: 150px; */
+    /* height: 150px; */
+    background-color: #06ad00;
+
+    grid-area: side4;
+}

@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap'); */
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.glavni {
+    margin: 0px auto;
+    background-color: aqua;
+    width: 600px;
+    padding: 20px 15px;
+}
+
+.glavni h1 {
+    text-align:center;
+    text-transform: capitalize;
+}
+.glavni p {
+    padding: 10px;
+    text-align: justify;
+}

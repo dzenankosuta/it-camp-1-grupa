@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 6rem;
+    background-color: #0000ff;
+    
+}
+
+.head0 {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -30px;
+}
+
+.head2 ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.head2 ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.div0 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* width: 330px; */
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.prvi {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.drugi {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(160, 119, 119);
+    position: relative;
+    top: 20px;
+}
+
+.treci {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(114, 78, 78);
+    position: relative;
+    top: -100px;
+}
+
+.cetvrti {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(63, 126, 59);
+    position: relative;
+    top: -70px;
+    left: 10px;
+}
+

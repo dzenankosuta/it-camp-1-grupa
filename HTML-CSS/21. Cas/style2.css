@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 40%;
+    height: 400px;
+    background-color: #46466a;
+
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: #a52a2a;
+
+
+}
+
+.parent:hover .child {
+    transform: translateY(250px)
+}

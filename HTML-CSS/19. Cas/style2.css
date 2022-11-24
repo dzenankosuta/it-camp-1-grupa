@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+header {
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(133, 116, 116);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+}
+
+header button {
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+main h1 {
+    margin: 5rem 0 5rem 4rem;
+}
+
+main .parent {
+    margin: auto;
+    width: 90vw;
+    height: 13rem;
+    background-color: #f5f5dc;
+    display: flex;
+    justify-content: start;
+}
+
+main .parent img {
+    flex-grow: 2;
+    margin-right: 2rem;
+}
+
+main .parent .child {
+    flex-grow: 1;
+}
