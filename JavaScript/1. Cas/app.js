@@ -11,7 +11,7 @@ console.log("Danas je bilo pretoplo. Cekamo septembar za nesto svezije vreme.");
 
 // Postoje:
 //    1. Primitivni (Primitive) tipovi podataka;
-//    2. Ne primitivni (Non-Primitive) tipovi podataka;
+//    2. Neprimitivni (Non-Primitive) tipovi podataka;
 
 // 1.1 String - Niz karaktera koji se upisuje unutar navodnika.
 //              On moze biti zapisan unutar obicnih ili duplih navodnika (nije bitno)
@@ -55,13 +55,13 @@ BigInt(945646161616161616185);
 
 Symbol("Kako je bilo vreme?");
 
-// 2. Ne primitivni tipovi podataka (Non-Primitive data types).
+// 2. Neprimitivni tipovi podataka (Non-Primitive data types).
 //    Primitivni tipovi podataka se koriste da skladistenje promenljivih (varijabli)
 //    koje imaju jednu vrednost.
 //    Dok za promenljive koje sadrze vise vrednosti (ili kompleksne vrednosti)
-//    koristimo ne primitivne tipove podataka (Non-Primitive data types.)
+//    koristimo neprimitivne tipove podataka (Non-Primitive data types.)
 
-//    Primeri ne primitivnih tipova podataka:
+//    Primeri neprimitivnih tipova podataka:
 
 // 2.1  Array (Nizovi) - Nizovi se koriste za skladistenje vise podataka
 //                       unutar jedne promenljive.

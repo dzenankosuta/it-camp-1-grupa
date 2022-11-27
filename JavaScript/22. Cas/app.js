@@ -73,7 +73,7 @@ console.log(parseFloat(true));
 console.log(parseFloat(false));
 console.log(parseFloat(false + true + true));
 console.log(parseFloat(" 41    "));
-console.log(parseFloat("41 56")); // razmaci nisu dozvoljeni
+console.log(parseFloat("41 56"));
 console.log(parseFloat("s41s"));
 console.log(parseFloat("55s"));
 console.log(parseFloat("14.3"));
@@ -93,7 +93,7 @@ console.log(parseInt(true));
 console.log(parseInt(false));
 console.log(parseInt(false + true + true));
 console.log(parseInt(" 41    "));
-console.log(parseInt("41 56")); // razmaci nisu dozvoljeni
+console.log(parseInt("41 56"));
 console.log(parseInt("s41s"));
 console.log(parseInt("55s"));
 console.log(parseInt("14.3"));
