@@ -3,19 +3,19 @@
 // treba dobiti 'ePari amd vejouk'. Ako string ima neparan broj znakova, poslednji znak se ne dira.
 
 const UbutajRedom = () => {
-    const recenica = "Pera ima devojku";
-    let duzina = recenica.length;
-    let novaRecenica = "";
-    for (let i = 0; i < duzina; i++) {
-        if (duzina % 2 === 1 && i === duzina - 1) {
-            novaRecenica += recenica[i];
-        } else if (i % 2 === 0) {
-            novaRecenica += recenica[i + 1];
-        } else if (i % 2 === 1) {
-            novaRecenica += recenica[i - 1]
-        }
+  const recenica = "Pera ima devojku";
+  let duzina = recenica.length;
+  let novaRecenica = "";
+  for (let i = 0; i < duzina; i++) {
+    if (duzina % 2 === 1 && i === duzina - 1) {
+      novaRecenica += recenica[i];
+    } else if (i % 2 === 0) {
+      novaRecenica += recenica[i + 1];
+    } else if (i % 2 === 1) {
+      novaRecenica += recenica[i - 1];
     }
-    return novaRecenica;
-}
+  }
+  return novaRecenica;
+};
 
 console.log(UbutajRedom());
