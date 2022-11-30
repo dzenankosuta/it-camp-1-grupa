@@ -5,56 +5,56 @@
 // 'You got ${num of products} in cart, shipping cost is ${shipping cost}, your total is ${total}.'
 
 const CART_DATA = [
-	{
-		id: 1,
-		name: "Hawai Shirt",
-		price: 30,
-		amount: 2,
-		categorty: "summer",
-		rating: 4.5,
-	},
-	{
-		id: 3,
-		name: "Adidas Slippers",
-		price: 35,
-		amount: 1,
-		categorty: "summer",
-		rating: 4.5,
-	},
-	{
-		id: 6,
-		name: "White T-Shirt",
-		price: 15,
-		amount: 4,
-		categorty: "summer",
-		rating: 4.7,
-	},
-	{
-		id: 4,
-		name: "Summer hat",
-		price: 7.5,
-		amount: 3,
-		categorty: "summer",
-		rating: 40,
-	},
+  {
+    id: 1,
+    name: "Hawai Shirt",
+    price: 30,
+    amount: 2,
+    categorty: "summer",
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    name: "Adidas Slippers",
+    price: 35,
+    amount: 1,
+    categorty: "summer",
+    rating: 4.5,
+  },
+  {
+    id: 6,
+    name: "White T-Shirt",
+    price: 15,
+    amount: 4,
+    categorty: "summer",
+    rating: 4.7,
+  },
+  {
+    id: 4,
+    name: "Summer hat",
+    price: 7.5,
+    amount: 3,
+    categorty: "summer",
+    rating: 40,
+  },
 ];
 const niz1 = function (arr) {
-	const newobject = arr.map((element) => {
-		return {
-			name: element.name,
-			totalValue: element.price * element.amount,
-		};
-	});
-	let TOTAL = newobject.map((element) => {
-		return element.totalValue;
-	});
-	let suma = TOTAL.reduce((prev, curr) => {
-		return prev + curr;
-	});
-	const shipping = 320;
+  const newobject = arr.map((element) => {
+    return {
+      name: element.name,
+      totalValue: element.price * element.amount,
+    };
+  });
+  let TOTAL = newobject.map((element) => {
+    return element.totalValue;
+  });
+  let suma = TOTAL.reduce((prev, curr) => {
+    return prev + curr;
+  });
+  const shipping = 320;
 
-	return `You got ${
-		newobject.length
-	} in cart, shipping cost is ${shipping}, your total is ${suma + shipping}.`;
+  return `You got ${
+    newobject.length
+  } in cart, shipping cost is ${shipping}, your total is ${suma + shipping}.`;
 };
 console.log(niz1(CART_DATA));

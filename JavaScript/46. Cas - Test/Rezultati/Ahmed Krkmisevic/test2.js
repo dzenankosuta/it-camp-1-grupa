@@ -7,9 +7,9 @@ const DATA1 = [2, 26, 38, 75, 11, 29];
 const DATA2 = ["a", "b", "c", "d", "e"];
 
 const testTask = (arr1, arr2) => {
-    const newArr = arr1.concat(arr2);
-    const newArr2 = newArr.filter((el) => el % 2 === 0);
-    newArr2.unshift(10, 20);
-    return `Prvi pomocni niz je: ${newArr}, \nDrugi pomocni niz je: ${newArr2}`;
+  const newArr = arr1.concat(arr2);
+  const newArr2 = newArr.filter((el) => el % 2 === 0);
+  newArr2.unshift(10, 20);
+  return `Prvi pomocni niz je: ${newArr}, \nDrugi pomocni niz je: ${newArr2}`;
 };
 console.log(testTask(DATA1, DATA2));

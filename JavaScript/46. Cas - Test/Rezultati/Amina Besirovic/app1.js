@@ -4,21 +4,20 @@
 //  Ako string ima neparan broj znakova, poslednji znak se ne dira.
 
 function zamenitiRedosled() {
-let recenica = "Pera ima devojku"
-let recenicaDva = "";
-let duzina = recenica.length;
+  let recenica = "Pera ima devojku";
+  let recenicaDva = "";
+  let duzina = recenica.length;
 
-for (let i = 0; i < duzina; i++) {
-    if (duzina % 2 === 1 && i === duzina -1) {
-        recenicaDva += recenica[duzina -1];
+  for (let i = 0; i < duzina; i++) {
+    if (duzina % 2 === 1 && i === duzina - 1) {
+      recenicaDva += recenica[duzina - 1];
     } else if (i % 2 === 0) {
-        recenicaDva += recenica[i + 1];
+      recenicaDva += recenica[i + 1];
     } else if (i % 2 === 1) {
-        recenicaDva += recenica[i - 1];
+      recenicaDva += recenica[i - 1];
     }
-        }
-        return recenicaDva;
-    }
-
+  }
+  return recenicaDva;
+}
 
 console.log(zamenitiRedosled());
