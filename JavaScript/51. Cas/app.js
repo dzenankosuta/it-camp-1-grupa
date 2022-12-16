@@ -1,0 +1,1 @@
+// Sinhroni JS - Dzemil Dupljak //
