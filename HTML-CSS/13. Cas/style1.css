@@ -1,19 +1,18 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Exo 2', sans-serif;
-    
+  font-family: "Exo 2", sans-serif;
 }
 
 .main {
-    display: inline-block;
-    margin: 40px 20px;
-    background-color: aqua;
-    width: 350px;
-    height: 400px;
-    overflow: auto;
+  display: inline-block;
+  margin: 40px 20px;
+  background-color: aqua;
+  width: 350px;
+  height: 400px;
+  overflow: auto;
 }
 
 /* .main:nth-of-type(2) {
@@ -25,7 +24,7 @@ body {
     display: none;
 } */
 
-/*  Ako u display svojstvu stavimo block to nam onemogucuje
+/*  Ako u display svojstvu stavimo inline to nam onemogucuje
     dodatne stilove tog kontejnera, sto nam ne ide u korist.
     Pozeljno je koristiti inline-block kako nam ostaje mogucnost
     dodatne manipulacije tog kontejnera. */
